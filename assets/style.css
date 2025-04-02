@@ -88,6 +88,47 @@ header img {
   color: var(--main-color);
 }
 
+/* Countdown Base Styling */
+.countdown .time-box {
+  width: 90px;
+  height: 110px;
+  border-radius: 6px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  color: #fff;
+  padding: 10px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.countdown .digit {
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 60px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  margin-bottom: 5px;
+}
+
+.countdown .label {
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Flip-style Colors */
+.bg-orange {
+  background-color: #f57c00;
+}
+.bg-green {
+  background-color: #388e3c;
+}
+.bg-red {
+  background-color: #d32f2f;
+}
+.bg-purple {
+  background-color: #7b1fa2;
+}
+
 /* Highlight style used in headings or feature labels */
 .highlight {
   background-color: var(--highlight-bg);
